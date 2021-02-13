@@ -5,7 +5,7 @@ A GBA Doom editor made by ZDoom forum user kgsws-CZ, so it isn't mine, but I'm r
 
 - Full texture/sprite replacement support.  
 - Partial graphics replacement support (images stored in WAD).  
-- Sound replace support.
+- Sound replacement support.
 - DeHackEd-like editing support for states and actors (with code-pointers).  
 - Internal storage (ROM size) is limited, so it's recommended for you to remove unused graphics (yes there is a plenty of unused graphics inside) before you start editing.
 
