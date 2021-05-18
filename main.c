@@ -1047,7 +1047,7 @@ int ReadBMP(FILE *f, bmphead_t *head, int width, int height)
 	if(height && head->height != height)
 		return 2;
 
-	if(head->width > 255 || head->height > 255)
+	if(head->width > 256 || head->height > 256)
 		return 3;
 
 	imgw = head->width;
